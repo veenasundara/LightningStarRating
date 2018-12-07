@@ -7,8 +7,8 @@ This component can be used to just display a score in the form of a star rating 
 This component uses the JQuery Raty plugin (https://www.jqueryscript.net/other/Full-featured-Star-Rating-Plugin-For-jQuery-Raty.html)
 
 ## Usage
-<c:CmpStarRating numStars="10" &lt;!-- Optional - default is 5 --&gt;
 
+<c:CmpStarRating numStars="10" &lt;!-- Optional - default is 5 --&gt;
                  value="{!v.score}" 
 	             readOnly="true" &lt;!-- default is false which allows selection --&gt;
                  showHalf="true" &lt;!-- default is false. Decides whether 1/2 stars are displayed --&gt;
