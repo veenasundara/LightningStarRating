@@ -1,0 +1,25 @@
+<!-- Component: 	CmpStarRating -->
+<!-- Created by: 	OpFocus(Veena Sundara-Heragu) on 11/29/18 -->
+<!-- Description: 	Component to select or display rating using stars -->
+<aura:component description="CmpStarRating"
+                access="global">
+
+    <aura:attribute name="numStars" type="Integer" default="5"/>
+    <aura:attribute name="value" type="Decimal" required="true"/>
+    <aura:attribute name="readOnly" type="Boolean" default="false"/>
+    <aura:attribute name="showHalf" type="Boolean" default="false"/>
+    <aura:attribute name="selectHalf" type="Boolean" default="false"/>
+    <aura:attribute name="cancelPlace" type="String" default="right" description="right or left"/>
+
+    <aura:attribute name="ready" type="Boolean" default="false"/>
+
+    <aura:method name="refresh"/>
+
+    <ltng:require
+            scripts="/resource/jqueryRaty/raty-master/vendor/jquery.js,/resource/jqueryRaty/raty-master/lib/jquery.raty.js"
+            styles="/resource/jqueryRaty/raty-master/lib/jquery.raty.css"
+            afterScriptsLoaded="{!c.afterScriptsLoaded}"/>
+
+    <div aura:id="rating"></div>
+
+</aura:component>
