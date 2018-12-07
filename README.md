@@ -8,6 +8,7 @@ This component uses the JQuery Raty plugin (https://www.jqueryscript.net/other/F
 
 ## Usage
 <c:CmpStarRating numStars="10" &lt;!-- Optional - default is 5 --&gt;
+
                  value="{!v.score}" 
 	             readOnly="true" &lt;!-- default is false which allows selection --&gt;
                  showHalf="true" &lt;!-- default is false. Decides whether 1/2 stars are displayed --&gt;
