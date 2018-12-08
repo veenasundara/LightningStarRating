@@ -14,7 +14,7 @@ This component uses the JQuery Raty plugin (https://www.jqueryscript.net/other/F
 	         readOnly="true"    <!-- default is false which allows selection -->
                  showHalf="true"    <!-- default is false. Decides whether 1/2 stars are displayed -->
                  selectHalf="true"  <!-- default is false. Decides whether 1/2 stars are allowed for selection -->
-                 cancelPlace="left"  <!-- default is right. Location of cancel button to the right or left of the stars --> 
+                 cancelPlace="left" <!-- default is right. Location of cancel button to the right or left of the stars --> 
 />
 ```
 
