@@ -9,12 +9,12 @@ This component uses the JQuery Raty plugin (https://www.jqueryscript.net/other/F
 ## Usage
 
 ```
-<c:CmpStarRating numStars="10" <-- Optional - default is 5 >
+<c:CmpStarRating numStars="10"     <!-- Optional - default is 5 >
                  value="{!v.score}" 
-	        readOnly="true" &lt;!-- default is false which allows selection --&gt;
-                 showHalf="true" &lt;!-- default is false. Decides whether 1/2 stars are displayed --&gt;
-                 selectHalf="true" &lt;!-- default is false. Decides whether 1/2 stars are allowed for selection --&gt;
-                 cancelPlace="left" &lt;!-- default is right. Location of cancel button to the right or left of the stars --&gt; 
+	         readOnly="true"    <!-- default is false which allows selection -->
+                 showHalf="true"   <!-- default is false. Decides whether 1/2 stars are displayed -->
+                 selectHalf="true" <!-- default is false. Decides whether 1/2 stars are allowed for selection -->
+                 cancelPlace="left"  <!-- default is right. Location of cancel button to the right or left of the stars --> 
 />
 ```
 
