@@ -9,9 +9,9 @@ This component uses the JQuery Raty plugin (https://www.jqueryscript.net/other/F
 ## Usage
 
 ```
-<c:CmpStarRating numStars="10" &lt;!-- Optional - default is 5 --&gt;
+<c:CmpStarRating numStars="10" <-- Optional - default is 5 >
                  value="{!v.score}" 
-	             readOnly="true" &lt;!-- default is false which allows selection --&gt;
+	        readOnly="true" &lt;!-- default is false which allows selection --&gt;
                  showHalf="true" &lt;!-- default is false. Decides whether 1/2 stars are displayed --&gt;
                  selectHalf="true" &lt;!-- default is false. Decides whether 1/2 stars are allowed for selection --&gt;
                  cancelPlace="left" &lt;!-- default is right. Location of cancel button to the right or left of the stars --&gt; 
@@ -27,19 +27,19 @@ The formula would look like this:
 ```
 IMAGE( 
       CASE(Account_Score__c, 
-			0,"/resource/ratingStars/stars_0.png", 
-			0.5,"/resource/ratingStars/stars_0_5.png", 
-			1,"/resource/ratingStars/stars_1.png", 
-			1.5,"/resource/ratingStars/stars_1_5.png", 
-			2,"/resource/ratingStars/stars_2.png", 
-			2.5,"/resource/ratingStars/stars_2_5.png", 
-			3,"/resource/ratingStars/stars_3.png", 
-			3.5,"/resource/ratingStars/stars_3_5.png", 
-			4,"/resource/ratingStars/stars_4.png", 
-			4.5,"/resource/ratingStars/stars_4_5.png", 
-			5,"/resource/ratingStars/stars_5.png", 
-			"/resource/ratingStars/stars_0.png"), 
-			"Account Score" 
+		0,"/resource/ratingStars/stars_0.png", 
+		0.5,"/resource/ratingStars/stars_0_5.png", 
+		1,"/resource/ratingStars/stars_1.png", 
+		1.5,"/resource/ratingStars/stars_1_5.png", 
+		2,"/resource/ratingStars/stars_2.png", 
+		2.5,"/resource/ratingStars/stars_2_5.png", 
+		3,"/resource/ratingStars/stars_3.png", 
+		3.5,"/resource/ratingStars/stars_3_5.png", 
+		4,"/resource/ratingStars/stars_4.png", 
+		4.5,"/resource/ratingStars/stars_4_5.png", 
+		5,"/resource/ratingStars/stars_5.png", 
+		"/resource/ratingStars/stars_0.png"), 
+		"Account Score" 
 	)
 ```
 
